@@ -76,7 +76,7 @@
         <avro-ipc-jetty-version>1.12.0</avro-ipc-jetty-version>
         <avro-ipc-netty-version>1.12.0</avro-ipc-netty-version>
         <awaitility-version>4.2.2</awaitility-version>
-        <aws-java-sdk2-version>2.28.0</aws-java-sdk2-version>
+        <aws-java-sdk2-version>2.28.1</aws-java-sdk2-version>
         <aws-xray-version>2.18.2</aws-xray-version>
         <azure-sdk-bom-version>1.2.27</azure-sdk-bom-version>
         <azure-storage-blob-changefeed-version>12.0.0-beta.24</azure-storage-blob-changefeed-version>
@@ -138,7 +138,7 @@
         <directory-watcher-version>0.18.0</directory-watcher-version>
         <disruptor-version>3.4.4</disruptor-version>
         <dnsjava-version>3.6.1</dnsjava-version>
-        <djl-version>0.29.0</djl-version>
+        <djl-version>0.30.0</djl-version>
         <docker-java-version>3.4.0</docker-java-version>
         <dropbox-version>7.0.0</dropbox-version>
         <eddsa-version>0.3.0</eddsa-version>
@@ -183,7 +183,7 @@
         <google-auth-library-oauth2-http-version>1.25.0</google-auth-library-oauth2-http-version>
         <google-api-client-version>2.7.0</google-api-client-version>
         <google-api-services-drive-version>v3-rev20240903-2.0.0</google-api-services-drive-version>
-        <google-api-services-calendar-version>v3-rev20240705-2.0.0</google-api-services-calendar-version>
+        <google-api-services-calendar-version>v3-rev20240906-2.0.0</google-api-services-calendar-version>
         <google-api-services-sheets-version>v4-rev20240826-2.0.0</google-api-services-sheets-version>
         <google-api-services-mail-version>v1-rev20240520-2.0.0</google-api-services-mail-version>
         <google-oauth-client-version>1.36.0</google-oauth-client-version>
@@ -221,7 +221,7 @@
         <httpclient4-version>4.5.14</httpclient4-version>
         <httpasyncclient-version>4.1.5</httpasyncclient-version>
         <huaweicloud-obs-version>3.24.8</huaweicloud-obs-version>
-        <huaweicloud-sdk-version>3.1.113</huaweicloud-sdk-version>
+        <huaweicloud-sdk-version>3.1.114</huaweicloud-sdk-version>
         <ical4j-version>4.0.4</ical4j-version>
         <icu4j-version>75.1</icu4j-version>
         <ignite-version>2.16.0</ignite-version>
@@ -262,7 +262,7 @@
         <jaxb2-maven-plugin-version>3.2.0</jaxb2-maven-plugin-version>
         <jaxp-ri-version>1.4.5</jaxp-ri-version>
         <jboss-el-api_3.0_spec-version>2.0.0.Final</jboss-el-api_3.0_spec-version>
-        <jboss-logging-version>3.6.0.Final</jboss-logging-version>
+        <jboss-logging-version>3.6.1.Final</jboss-logging-version>
         <jboss-marshalling-version>1.4.10.Final</jboss-marshalling-version>
         <jboss-transaction-spi.version>7.6.1.Final</jboss-transaction-spi.version>
         <jboss-xnio-version>3.3.8.Final</jboss-xnio-version>
@@ -282,7 +282,7 @@
         <jgroups-raft-mapdb-version>1.0.8</jgroups-raft-mapdb-version>
         <jira-rest-client-api-version>6.0.1</jira-rest-client-api-version>
         <libthrift-version>0.20.0</libthrift-version>
-        <jodatime2-version>2.12.7</jodatime2-version>
+        <jodatime2-version>2.13.0</jodatime2-version>
         <jolokia-version>2.1.1</jolokia-version>
         <jolt-version>0.1.8</jolt-version>
         <jool-version>0.9.15</jool-version>
@@ -326,7 +326,7 @@
         <lucene-version>9.11.1</lucene-version>
         <lightcouch-version>0.2.0</lightcouch-version>
         <littleproxy-version>2.3.0</littleproxy-version>
-        <mapstruct-version>1.6.1</mapstruct-version>
+        <mapstruct-version>1.6.2</mapstruct-version>
         <!-- needed from tooling/archetypes -->
         <maven-version>3.9.9</maven-version>
         <maven-antrun-plugin-version>3.1.0</maven-antrun-plugin-version>
@@ -373,7 +373,7 @@
         <netty-version>4.1.113.Final</netty-version>
         <netty-reactive-streams-version>2.0.5</netty-reactive-streams-version>
         <networknt-json-schema-validator-version>1.5.1</networknt-json-schema-validator-version>
-        <nimbus-jose-jwt>9.41</nimbus-jose-jwt>
+        <nimbus-jose-jwt>9.41.1</nimbus-jose-jwt>
         <nitrite-version>3.4.4</nitrite-version>
         <olingo2-version>2.0.13</olingo2-version>
         <olingo4-version>5.0.0</olingo4-version>
@@ -449,7 +449,7 @@
         <splunk-version>1.9.5_1</splunk-version>
         <spock-version>2.3-groovy-4.0</spock-version>
         <spring-batch-version>5.1.2</spring-batch-version>
-        <spring-data-redis-version>3.3.3</spring-data-redis-version>
+        <spring-data-redis-version>3.3.4</spring-data-redis-version>
         <spring-ldap-version>3.2.6</spring-ldap-version>
         <spring-vault-core-version>3.1.2</spring-vault-core-version>
         <spring-version>6.1.13</spring-version>

@@ -14,22 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.camel.component.paho.mqtt5.integration;
+// use modeline to configure properties directly in the same source file
+// camel-k: language=java name=Cool property=period=1000
+import org.apache.camel.BindToRegistry;
 
-import org.apache.camel.test.infra.mosquitto.services.MosquittoService;
-import org.apache.camel.test.infra.mosquitto.services.MosquittoServiceFactory;
-import org.apache.camel.test.junit5.CamelTestSupport;
-import org.junit.jupiter.api.extension.RegisterExtension;
+public class LazyFoo {
 
-public abstract class PahoMqtt5ITSupport extends CamelTestSupport {
-    @RegisterExtension
-    public static MosquittoService service = MosquittoServiceFactory.createService();
-
-    protected int mqttPort;
-
-    @Override
-    public void doPreSetup() throws Exception {
-        super.doPreSetup();
-        mqttPort = service.getPort();
-    }
+  @BindToRegistry
+  public String myFoo() {
+      throw new IllegalArgumentException("Cannot load foo driver");
+  }
 }
